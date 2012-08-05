@@ -1,0 +1,13 @@
+.recordWaiting             { color: #00FF00 !important; }
+.recordRunning             { color: #8B4513 !important; }
+.recordAccepted            { color: #FF0000 !important; }
+.recordTimeLimitExceeded   { color: #FF7400 !important; }
+.recordMemoryLimitExceeded { color: #73880A !important; }
+.recordWrongAnswer         { color: #3333FF !important; }
+.recordRuntimeError        { color: #FF108C !important; }
+.recordCompileError        { color: #008C00 !important; }
+.recordUnknownError         { color: #356AA0 !important; }
+
+tr.cen {
+	text-align: center;
+}

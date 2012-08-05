@@ -1,0 +1,33 @@
+#student_no, #password {
+	padding: 11px 5px 11px 8px;
+	font-size: 1.8em;
+	width: 360px;
+}
+#login-form label {
+	line-height: 1.4;
+	margin-bottom: 5px;
+	font-size: 110%;
+}
+#login hr {
+	margin: 4px 0 10px 0;
+}
+#login .well {
+	border-radius: 0px 0px 3px 3px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+}
+#login h2 {
+	color:white;
+	font-size:24px;
+	line-height: 32px;
+	font-weight: normal;
+	background: #444;
+	background: -moz-linear-gradient(#777,#333);
+	background: -webkit-linear-gradient(#777,#333);
+	border:1px solid #677C89;
+	border-bottom-color:#6B808D;
+	border-radius:3px 3px 0 0;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.7);
+	margin:0;
+	padding:8px 18px;
+}
