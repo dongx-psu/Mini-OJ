@@ -26,7 +26,6 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<!--<span class="icon-bar"></span>-->
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -85,7 +84,7 @@
 							}
 							echo "</tbody></table>";
 							$previous=$page - 1; $next=$page + 1;
-							echo '<div class="pagination pagination-centered"><ul>';
+							echo '<div class="pagination pagination-centered" style="height: auto;"><ul>';
 							if ($previous>0) echo '<li><a href="./status.php?page='. $previous .'">&laquo;</a></li>';
 							else echo '<li class="disabled"><a href="#">&laquo;</a></li>';
 							for ($i = 1; $i <= $pages; $i++)
